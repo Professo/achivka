@@ -14,7 +14,7 @@ var N = document.getElementsByClassName('Np')[0];
     N.innerHTML = 1;
 
 page.number=2;
-for(var i= 0;i<100;i++) {           //выбираем количество наград
+for(var i= 0;i<99;i++) {           //выбираем количество наград
     //if(i==0) document.write(page.parent_1);
     document.write(page.str + page.number + page.str2);
     page.number++;
